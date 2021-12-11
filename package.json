@@ -1,6 +1,6 @@
 {
   "name": "@majortom327/sql-builder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "MajorTom327",
   "license": "MIT",
   "description": "Build SQL queries as Fluent objects",
