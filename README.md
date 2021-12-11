@@ -4,6 +4,7 @@
 ![1 dependency](https://badgen.net/bundlephobia/dependency-count/@majortom327/sql-builder)
 ![Types included](https://badgen.net/npm/types/@majortom327/sql-builder)
 ![Travis Build](https://app.travis-ci.com/MajorTom327/sql-builder.svg)
+[![Coverage Status](https://coveralls.io/repos/github/MajorTom327/sql-builder/badge.svg?branch=master)](https://coveralls.io/github/MajorTom327/sql-builder?branch=master)
 
 ---
 
