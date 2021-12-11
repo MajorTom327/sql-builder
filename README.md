@@ -3,7 +3,6 @@
 ![Minzip size](https://badgen.net/bundlephobia/minzip/@majortom327/sql-builder)
 ![1 dependency](https://badgen.net/bundlephobia/dependency-count/@majortom327/sql-builder)
 ![Types included](https://badgen.net/npm/types/@majortom327/sql-builder)
-![Npm version](https://badgen.net/npm/dt/@majortom327/sql-builder)
 
 ---
 
