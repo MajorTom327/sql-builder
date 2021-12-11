@@ -19,8 +19,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "mocha -r ts-node/register \"./spec/**/*.spec.ts\"",
-    "coverage": "nyc yarn test",
+    "test": "nyc mocha -r ts-node/register \"./spec/**/*.spec.ts\"",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
     "lint": "npx eslint --ext .js --fix src/**/*.ts",
     "build": "rimraf dist && tsc -p ./tsconfig.json && rollup -c rollup.config.js",
     "dev": "ts-node-dev ./src/index.ts",
@@ -36,6 +36,7 @@
     "@typescript-eslint/eslint-plugin": "^5.6.0",
     "@typescript-eslint/parser": "^5.6.0",
     "chai": "^4.3.4",
+    "coveralls": "^3.1.1",
     "deepmerge": "^4.2.2",
     "eslint": "^7.32.0",
     "eslint-config-standard": "^16.0.3",
