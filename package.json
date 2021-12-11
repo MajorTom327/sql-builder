@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "author": "MajorTom327",
   "license": "MIT",
+  "description": "Build SQL queries as Fluent objects",
   "keywords": [
     "sql",
     "query",
