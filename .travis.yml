@@ -1,9 +1,9 @@
 language: node_js
 node_js:
-- node
+  - node
 branch:
   only:
-  - master
+    - master
 after_success: npm run coverage
 deploy:
   provider: npm
@@ -11,5 +11,6 @@ deploy:
   api_key:
     secure: LKLjmHvbYkTO/CznNDecJXrqB0eTm8W6H8GZgI5UYPWdWjWpETMYFA/XL59qH3F/vN1nZgA++c5sVsY39RJ7jxyx6zWv0eHYlo9wIZRXNwGu7/VZ2sxIT2kLBWv2vNnkAv0yelrklJOZgzwXqTqPzR55tsTyggVXTwL7bmUSlFYljhmcfvjU4eBzZ7PeVqA7OXVbzXCmiEFutIdPWtfRKkEsytTRhXVI5Cdvs65kBnXwuyFQs4Joz7XLViSJ6JE/3Y5RM/A7uGushFLjPfDMEFsfJlPTFuCWZKqE66KTJsYgEqLbGeX1FV0kZ3cssUiiJFLzHB4ydFXG3Pg5eBu44ljhGVTfq59lLufKlAyFiz7Vbz5Qw2cOcoNGY80PvVci3fb5oJ1j5hQo5wtDuvZFLRvJGFunoXwA0AzE5DaqAqgrlvylq0P0hjFOELR3c9k8A0qdBuqt6J07S5yMaFBv3ocCtZaULsQOJGxNQvdL4wR+21BLwphZfFEekvqR8F5nU5t6esi84IQunx2NZnNMvCDOOp3oKUCYNMVVSYIE7Iksy7JHftaikqr9IiSHmoXEl/KMg7JEw0sIuysaYqTX+BZDSO2W7nE/lxcdlxEoNyU2cZ89MKr4wi3x+gO3AZcTyQg8g0ZAO4r9VbhAyPbsPkv98A4oCHitz1oqXqVedA0=
   on:
+    tags: true
     repo: MajorTom327/sql-builder
-  skip_cleanup: 'true'
+  skip_cleanup: "true"
