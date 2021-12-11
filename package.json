@@ -9,6 +9,10 @@
     "query",
     "builder"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MajorTom327/sql-builder"
+  },
   "files": [
     "dist/**/*"
   ],
